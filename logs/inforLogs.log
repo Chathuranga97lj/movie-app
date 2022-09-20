@@ -9,3 +9,6 @@
 {"level":"info","message":"::ffff:127.0.0.1 - - [20/Sep/2022:16:58:53 +0000] \"GET /movies/1 HTTP/1.1\" 500 1541 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [20/Sep/2022:17:14:44 +0000] \"GET /movies/1 HTTP/1.1\" 500 1541 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [20/Sep/2022:17:31:29 +0000] \"GET /movies/1 HTTP/1.1\" 200 16248 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [20/Sep/2022:18:07:29 +0000] \"GET /movies/2 HTTP/1.1\" 200 16180 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [20/Sep/2022:18:34:10 +0000] \"GET /movies/573a1391f29313caabcd8268 HTTP/1.1\" 200 16492 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [20/Sep/2022:18:35:58 +0000] \"GET /movies/573a1398f29313caabcebe55 HTTP/1.1\" 200 16492 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
