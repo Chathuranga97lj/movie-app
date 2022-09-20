@@ -1,12 +1,15 @@
 const express = require('express');
+const middleware = require('./middlewares');
 
 const app = express();
 
-// middlewares
-app.use((req, res, next) => {
-    console.log(req.ip);
-    next(); // pass req in middleware to routers
-});
+middleware(app); // remove midlewares and deploy seperatly
+
+// // middlewares
+// app.use((req, res, next) => {
+//     console.log(req.ip);
+//     next(); // pass req in middleware to routers
+// });
 
 // routes
 app.get('/', (req, res, next) => {
