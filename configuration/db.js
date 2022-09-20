@@ -1,4 +1,4 @@
-const {MongoClient} = require('mongodb');
+const {MongoClient, Db} = require('mongodb');
 
 const _uri = 'mongodb+srv://shop-user:32706189@cluster0.rbwuf5l.mongodb.net/?retryWrites=true&w=majority'
 
@@ -11,5 +11,10 @@ const dbCon = (coll, cb) => {
         })
         .catch()
 };
+
+dbCon('movies', async(db) => {
+    const movie = await db.findOne();
+    console.log(movie);
+})
 
 module.exports = dbCon;
