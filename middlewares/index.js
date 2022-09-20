@@ -1,3 +1,5 @@
+const morgan = require('morgan');
+
 module.exports = (app) => {
-    app.use();
-}
+    app.use(morgan('dev'));
+};
