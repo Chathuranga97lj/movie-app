@@ -22,10 +22,22 @@ middleware(app); // remove midlewares and deploy seperatly
 // routes
 routes(app);
 
+// not found handler
 app.use((req, res, next) => {
     const error = createError(404);
+    next(error); // send errors to global error handler
     //console.log(error.message);
-    res.status(error.statusCode).send(error.message);
+    // res.status(error.statusCode).send(error.message);
+});
+
+// global error handler
+app.use((error, req, res, next) => {
+    logger.error(error.message);
+
+    res.statusCode = error.statusCode;
+    res.json({
+        message: error.message
+    });
 });
 
 module.exports = app;
