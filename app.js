@@ -1,5 +1,6 @@
 const express = require('express'); 
-const {logger} = require('./configuration')
+const {logger} = require('./configuration');
+const createError = require('http-errors');
 const middleware = require('./middlewares');
 const routes = require('./routes');
 
@@ -20,5 +21,11 @@ middleware(app); // remove midlewares and deploy seperatly
 
 // routes
 routes(app);
+
+app.use((req, res, next) => {
+    const error = createError(404);
+    //console.log(error.message);
+    res.status(error.statusCode).send(error.message);
+});
 
 module.exports = app;
