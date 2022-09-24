@@ -18,6 +18,9 @@ const getMovies = (req, res, next) => {
 };
 
     const getOneMovie = (req, res, next) => {
+        if(!ObjectId.isValid(req.params.id)) {
+            return res.status(400).send('bad request');
+        }
         const _id = new ObjectId(req.params.id);
         dbCon('movies', async (db) => {
             const movie = await db.findOne({_id});
