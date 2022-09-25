@@ -1,5 +1,6 @@
 const {dbCon} = require('../configuration');
 const {userValidator} = require('../validator');
+const {hashSync} = require('bcryptjs');
 
 class User {
     constructor(userData) {
@@ -9,6 +10,8 @@ class User {
     save(cb) {
         dbCon('users', async(db) => {
             try{
+                const hashedPass = hashSync(this.userData['password'], 12);
+                this.userData['password'] = hashedPass;
                 await db.insertOne(this.userData);
                 cb();
             }catch(err){
