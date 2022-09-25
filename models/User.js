@@ -1,6 +1,6 @@
 const {dbCon} = require('../configuration');
-const {userValidator} = require('../validator');
-const {hashSync} = require('bcryptjs');
+const {userValidator, logSchema} = require('../validator');
+const {hashSync, compareSync} = require('bcryptjs');
 
 class User {
     constructor(userData) {
@@ -55,22 +55,46 @@ class User {
         //console.log(result.error.message);
         return result;
     }  
+
+    static login(userData){
+        return new Promise((resolve, reject) => {
+
+            // validation
+            const validation = logSchema.validate(userData);
+            if(validation.error){
+                const error = new Error(validation.error.message);
+                error.statusCode = 400;
+                return resolve(error);
+            }
+
+            // find user in db connection
+            dbCon('users',async (db) => {
+                try{
+                    // find user
+                    const user = await db.findOne({'$or':[{username: userData['username']}, {email: userData['email']}]})
+                    if(!user || ! compareSync(userData['password'], user.password)){
+                        const error = new Error('Please enter valid username and password');
+                        error.statusCode = 404;
+                        return resolve(error);
+                    }
+                    
+                    // compareSync check hashed password and give boolean value if match or not
+                    resolve(user);
+                    
+                } catch(err){
+                    reject(err);
+                }
+            })
+        })
+    }
 };
 
-// const user = new User({
-//     username: 'chathu97',
-//     email: 'chathuit97@gmail.com',
-//     password: 'Chathu123#',
-//     first_name: 'chathu',
-//     last_name: 'jaya'
-// });
-
-// user.checkExistence()
-//     .then(check => {
-//         console.log(check);
-//     })
-//     .catch(err => console.log(err));
-
-// const validation = User.validate(userData);
+User.login({
+    username: 'ch972',
+    password: 'Chathu123#'
+})
+    .then(res => {
+        console.log(res);
+    })
 
 module.exports = User;

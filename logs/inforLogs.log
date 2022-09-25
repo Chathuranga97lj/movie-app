@@ -59,3 +59,4 @@
 {"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:09:21:51 +0000] \"POST /auth/signup HTTP/1.1\" 201 48 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
 {"level":"error","message":"this user name is already in use!"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:09:27:00 +0000] \"POST /auth/signup HTTP/1.1\" 409 47 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:09:56:15 +0000] \"POST /auth/signup HTTP/1.1\" 201 48 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
