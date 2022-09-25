@@ -49,17 +49,20 @@ class User {
     }  
 };
 
-const user = new User({
-    username: 'chathu97',
-    email: 'chathuit97@gmail.com',
-    password: 'Chathu123#',
-    first_name: 'chathu',
-    last_name: 'jaya'
-});
+// const user = new User({
+//     username: 'chathu97',
+//     email: 'chathuit97@gmail.com',
+//     password: 'Chathu123#',
+//     first_name: 'chathu',
+//     last_name: 'jaya'
+// });
 
-user.checkExistence()
-    .then(check => {
-        console.log(check);
-    })
-    .catch(err => console.log(err));
+// user.checkExistence()
+//     .then(check => {
+//         console.log(check);
+//     })
+//     .catch(err => console.log(err));
+
 // const validation = User.validate(userData);
+
+module.exports = User;

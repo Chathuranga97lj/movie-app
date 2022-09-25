@@ -25,3 +25,13 @@
 {"level":"info","message":"::ffff:127.0.0.1 - - [24/Sep/2022:13:49:48 +0000] \"GET /comments HTTP/1.1\" 404 23 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
 {"level":"error","message":"Bad Request"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [24/Sep/2022:13:52:55 +0000] \"GET /movies/name HTTP/1.1\" 400 25 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'validate')"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:07:30:03 +0000] \"POST /auth/signup HTTP/1.1\" 500 1196 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'validate')"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:07:33:44 +0000] \"POST /auth/signup HTTP/1.1\" 500 1196 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"error","message":"\"username\" length must be less than or equal to 10 characters long"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:07:35:31 +0000] \"POST /auth/signup HTTP/1.1\" 400 82 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"error","message":"\"email\" is required"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:07:35:54 +0000] \"POST /auth/signup HTTP/1.1\" 400 35 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"error","message":"At least one upper case English letter \nAt least one lower case English letter \nAt least one digit \nAt least one special character Minimum eight in length"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:07:38:17 +0000] \"POST /auth/signup HTTP/1.1\" 400 171 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
