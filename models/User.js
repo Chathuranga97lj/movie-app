@@ -71,7 +71,7 @@ class User {
             dbCon('users',async (db) => {
                 try{
                     // find user
-                    const user = await db.findOne({'$or':[{username: userData['username']}, {email: userData['email']}]})
+                    const user = await db.findOne({'$or':[{username: userData['username']}, {email: userData['email']}]}, {projection: {username: 1, password: 1, }})
                     if(!user || ! compareSync(userData['password'], user.password)){
                         const error = new Error('Please enter valid username and password');
                         error.statusCode = 404;

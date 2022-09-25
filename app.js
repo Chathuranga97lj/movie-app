@@ -1,7 +1,7 @@
 const express = require('express'); 
 const {logger} = require('./configuration');
 const createError = require('http-errors');
-const middleware = require('./middlewares');
+const {middleware} = require('./middlewares');
 const routes = require('./routes');
 
 const app = express();

@@ -60,3 +60,36 @@
 {"level":"error","message":"this user name is already in use!"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:09:27:00 +0000] \"POST /auth/signup HTTP/1.1\" 409 47 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:09:56:15 +0000] \"POST /auth/signup HTTP/1.1\" 201 48 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"error","message":"Not Found"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:13:08:31 +0000] \"GET /auth/login HTTP/1.1\" 404 23 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"error","message":"Not Found"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:13:09:09 +0000] \"GET /auth/login HTTP/1.1\" 404 23 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"error","message":"Not Found"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:13:09:12 +0000] \"GET /auth/login HTTP/1.1\" 404 23 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"error","message":"Not Found"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:13:09:22 +0000] \"GET /auth/login HTTP/1.1\" 404 23 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"error","message":"Not Found"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:13:09:23 +0000] \"GET /auth/login HTTP/1.1\" 404 23 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"error","message":"Not Found"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:13:09:57 +0000] \"GET /auth/login HTTP/1.1\" 404 23 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"error","message":"Not Found"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:13:09:58 +0000] \"GET /auth/login HTTP/1.1\" 404 23 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"error","message":"Not Found"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:13:10:04 +0000] \"GET /auth/login HTTP/1.1\" 404 23 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"error","message":"Not Found"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:13:10:05 +0000] \"GET /auth/login HTTP/1.1\" 404 23 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"error","message":"Unexpected token u in JSON at position 4"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:13:12:05 +0000] \"GET /auth/login HTTP/1.1\" 400 54 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"error","message":"Not Found"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:13:12:24 +0000] \"GET /auth/login HTTP/1.1\" 404 23 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"error","message":"Please enter valid username and password"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:13:19:27 +0000] \"POST /auth/login HTTP/1.1\" 404 54 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"error","message":"\"password\" is required"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:13:19:57 +0000] \"POST /auth/login HTTP/1.1\" 400 38 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:13:20:46 +0000] \"POST /auth/login HTTP/1.1\" 200 200 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:13:26:59 +0000] \"POST /auth/login HTTP/1.1\" 200 127 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:13:52:08 +0000] \"POST /auth/login HTTP/1.1\" 200 177 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:13:54:19 +0000] \"POST /auth/login HTTP/1.1\" 200 187 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"error","message":"\"username\" is required"}
+{"level":"info","message":"::1 - - [25/Sep/2022:14:03:16 +0000] \"POST /auth/login HTTP/1.1\" 400 38 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"info","message":"::1 - - [25/Sep/2022:14:04:13 +0000] \"POST /auth/login HTTP/1.1\" 200 187 \"-\" \"PostmanRuntime/7.29.2\"\n"}
