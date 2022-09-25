@@ -38,3 +38,17 @@
 {"level":"error","message":"At least one upper case English letter \nAt least one lower case English letter \nAt least one digit \nAt least one special character Minimum eight in length"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:08:22:59 +0000] \"POST /auth/signup HTTP/1.1\" 400 171 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:08:29:44 +0000] \"POST /auth/signup HTTP/1.1\" - - \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:08:45:24 +0000] \"POST /auth/signup HTTP/1.1\" - - \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"error"}
+{"level":"error","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":"atlas-zz7hbo-shard-0","stale":false,"type":"ReplicaSetNoPrimary"}}
+{"level":"error","message":"\"username\" is required"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:08:50:33 +0000] \"POST /auth/signup HTTP/1.1\" 400 38 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"error","message":"\"username\" is required"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:08:52:20 +0000] \"POST /auth/signup HTTP/1.1\" 400 38 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"error","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":"atlas-zz7hbo-shard-0","stale":false,"type":"ReplicaSetNoPrimary"}}
+{"level":"error","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":"atlas-zz7hbo-shard-0","stale":false,"type":"ReplicaSetNoPrimary"}}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:08:56:33 +0000] \"POST /auth/signup HTTP/1.1\" 201 48 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:09:01:43 +0000] \"POST /auth/signup HTTP/1.1\" 201 48 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"error","message":"\"username\" is required"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:09:03:51 +0000] \"POST /auth/signup HTTP/1.1\" 400 38 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Sep/2022:09:07:31 +0000] \"POST /auth/signup HTTP/1.1\" 201 48 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
