@@ -93,3 +93,26 @@
 {"level":"error","message":"\"username\" is required"}
 {"level":"info","message":"::1 - - [25/Sep/2022:14:03:16 +0000] \"POST /auth/login HTTP/1.1\" 400 38 \"-\" \"PostmanRuntime/7.29.2\"\n"}
 {"level":"info","message":"::1 - - [25/Sep/2022:14:04:13 +0000] \"POST /auth/login HTTP/1.1\" 200 187 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"error","message":"Unauthorized"}
+{"level":"info","message":"::1 - - [26/Sep/2022:02:03:57 +0000] \"GET /movies/4 HTTP/1.1\" 401 26 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"error","message":"Not Found"}
+{"level":"info","message":"::1 - - [26/Sep/2022:02:05:59 +0000] \"GET /auth/login HTTP/1.1\" 404 23 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"error","message":"Not Found"}
+{"level":"info","message":"::1 - - [26/Sep/2022:02:06:24 +0000] \"GET /auth/login HTTP/1.1\" 404 23 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"info","message":"::1 - - [26/Sep/2022:02:07:57 +0000] \"POST /auth/login HTTP/1.1\" 200 187 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"error","message":"Unauthorized"}
+{"level":"info","message":"::1 - - [26/Sep/2022:02:09:38 +0000] \"GET /movies/4 HTTP/1.1\" 401 26 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"error","message":"Unauthorized"}
+{"level":"info","message":"::1 - - [26/Sep/2022:02:10:22 +0000] \"GET /movies/4 HTTP/1.1\" 401 26 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"info","message":"::1 - - [27/Sep/2022:04:43:10 +0000] \"POST /auth/login HTTP/1.1\" 200 187 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"error","message":"Unauthorized"}
+{"level":"info","message":"::1 - - [27/Sep/2022:04:43:37 +0000] \"GET /movies/4 HTTP/1.1\" 401 26 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"error","message":"Not Found"}
+{"level":"info","message":"::1 - - [27/Sep/2022:04:43:55 +0000] \"GET /movies HTTP/1.1\" 404 23 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"error","message":"Unauthorized"}
+{"level":"info","message":"::1 - - [27/Sep/2022:04:45:18 +0000] \"GET /movies/4 HTTP/1.1\" 401 26 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"info","message":"::1 - - [27/Sep/2022:04:47:21 +0000] \"POST /auth/login HTTP/1.1\" 200 187 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"info","message":"::1 - - [27/Sep/2022:04:47:59 +0000] \"GET /movies/4 HTTP/1.1\" 200 15568 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"error","message":"Unauthorized"}
+{"level":"info","message":"::1 - - [27/Sep/2022:04:49:03 +0000] \"GET /movies/4 HTTP/1.1\" 401 26 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"info","message":"::1 - - [27/Sep/2022:04:49:34 +0000] \"GET /movies/4 HTTP/1.1\" 200 15568 \"-\" \"PostmanRuntime/7.29.2\"\n"}
