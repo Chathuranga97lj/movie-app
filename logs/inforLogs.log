@@ -116,3 +116,21 @@
 {"level":"error","message":"Unauthorized"}
 {"level":"info","message":"::1 - - [27/Sep/2022:04:49:03 +0000] \"GET /movies/4 HTTP/1.1\" 401 26 \"-\" \"PostmanRuntime/7.29.2\"\n"}
 {"level":"info","message":"::1 - - [27/Sep/2022:04:49:34 +0000] \"GET /movies/4 HTTP/1.1\" 200 15568 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"info","message":"::1 - - [28/Sep/2022:09:41:00 +0000] \"GET /movies/4 HTTP/1.1\" 200 15568 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"error","message":"Unauthorized"}
+{"level":"info","message":"::1 - - [28/Sep/2022:09:41:23 +0000] \"GET /movies/4 HTTP/1.1\" 401 26 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"info","message":"::1 - - [28/Sep/2022:09:42:00 +0000] \"POST /auth/login HTTP/1.1\" 200 187 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"info","message":"::1 - - [28/Sep/2022:09:42:50 +0000] \"GET /movies/4 HTTP/1.1\" 200 15568 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [28/Sep/2022:09:45:31 +0000] \"POST /auth/signup HTTP/1.1\" 201 48 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"error","message":"this user name is already in use!"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [28/Sep/2022:09:45:53 +0000] \"POST /auth/signup HTTP/1.1\" 409 47 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n"}
+{"level":"error","message":"Please enter valid username and password"}
+{"level":"info","message":"::1 - - [28/Sep/2022:09:48:59 +0000] \"POST /auth/login HTTP/1.1\" 404 54 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"error","message":"Unexpected token } in JSON at position 30"}
+{"level":"info","message":"::1 - - [28/Sep/2022:09:49:20 +0000] \"POST /auth/login HTTP/1.1\" 400 55 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"error","message":"\"password\" is required"}
+{"level":"info","message":"::1 - - [28/Sep/2022:09:49:28 +0000] \"POST /auth/login HTTP/1.1\" 400 38 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"info","message":"::1 - - [28/Sep/2022:09:50:02 +0000] \"POST /auth/login HTTP/1.1\" 200 191 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"error","message":"Unauthorized"}
+{"level":"info","message":"::1 - - [28/Sep/2022:09:51:03 +0000] \"GET /movies/1 HTTP/1.1\" 401 26 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"info","message":"::1 - - [28/Sep/2022:09:51:28 +0000] \"GET /movies/1 HTTP/1.1\" 200 12520 \"-\" \"PostmanRuntime/7.29.2\"\n"}
