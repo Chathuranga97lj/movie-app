@@ -1,4 +1,8 @@
 // entry file
+
+// first add dotnev 
+require('dotenv').config();
+
 const http = require('http');
 const app = require('./app');
 
@@ -10,6 +14,6 @@ const server = http.createServer(app);
 // });
 
 // set listen using call back 
-server.listen('5000', () => {
-    console.log('Server is listening now');
+server.listen(process.env.PORT, () => {
+    console.log(`Server is listening now on ${process.env.PORT} `);
 });

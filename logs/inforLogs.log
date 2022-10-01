@@ -134,3 +134,4 @@
 {"level":"error","message":"Unauthorized"}
 {"level":"info","message":"::1 - - [28/Sep/2022:09:51:03 +0000] \"GET /movies/1 HTTP/1.1\" 401 26 \"-\" \"PostmanRuntime/7.29.2\"\n"}
 {"level":"info","message":"::1 - - [28/Sep/2022:09:51:28 +0000] \"GET /movies/1 HTTP/1.1\" 200 12520 \"-\" \"PostmanRuntime/7.29.2\"\n"}
+{"level":"info","message":"::1 - - [01/Oct/2022:08:55:40 +0000] \"GET /movies/1 HTTP/1.1\" 200 12520 \"-\" \"PostmanRuntime/7.29.2\"\n"}
